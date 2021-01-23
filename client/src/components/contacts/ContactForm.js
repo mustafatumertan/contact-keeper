@@ -20,6 +20,7 @@ const ContactForm = () => {
             type: "personal"
          });
       }
+      // eslint-disable-next-line
    }, [contactContext, current]);
 
    const [contact, setContact] = useState({

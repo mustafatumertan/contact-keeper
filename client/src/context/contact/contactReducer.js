@@ -9,7 +9,7 @@ import {
 } from "../types";
 import contactContext from "./contactContext";
 
-export default (state, action) => {
+const contactReducer = (state, action) => {
    switch (action.type)
    {
       case ADD_CONTACT:
@@ -61,3 +61,5 @@ export default (state, action) => {
          return state;
    }
 }
+
+export default contactReducer;
